@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=DM+Serif+Display&family=Lato&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("'https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato&display=swap'");
-
 @layer base {
 	html {
-		@apply box-border bg-dark text-smoke
-			   max-w-3xl place-content-center mx-auto font-sans;
+		@apply box-border bg-dark text-gray-light text-base
+			   max-w-2xl place-content-center mx-auto font-sans leading-normal
+	}
+
+	body {
+		@apply my-auto pt-20;
+	}
+
+	main {
+		@apply my-auto pt-10; 
+	}
+
+	nav {
+		@apply pt-3 flex justify-center space-x-4 text-xl;
+	}
+
+	nav a {
+		@apply font-medium px-3 py-2 hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-wavy hover:decoration-blue;
+	}
+
+	nav a.active {
+		@apply font-bold text-blue;
+	}
+
+	p {
+		@apply text-xl font-light;
+	}
+}
+
+@layer components {
+	.page_title {
+	  @apply mx-auto rounded-xl underline underline-offset-8 decoration-4 decoration-wavy decoration-blue text-gray-light w-fit p-3 text-center text-5xl ;
 	}
 }
 
