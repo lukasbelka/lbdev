@@ -7,32 +7,44 @@
 
 @layer base {
 	html {
-		@apply box-border bg-dark text-gray-light text-base
-			   max-w-2xl place-content-center mx-auto font-sans leading-normal
+		@apply box-border bg-dark text-gray-light
+			   max-w-2xl place-content-center mx-auto leading-normal;
 	}
-
 	body {
-		@apply my-auto pt-20;
+		@apply my-auto px-3 py-3;
 	}
-
 	main {
 		@apply my-auto pt-10; 
 	}
-
 	nav {
 		@apply pt-3 flex justify-center space-x-4 text-xl;
 	}
-
 	nav a {
 		@apply font-medium px-3 py-2 hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-wavy hover:decoration-blue;
 	}
-
 	nav a.active {
 		@apply font-bold text-blue;
 	}
-
+	h1 {
+		@apply text-5xl font-dmserif;
+	}
+	h2 {
+		@apply text-3xl font-dmserif;
+	}
+	h3 {
+		@apply text-xl font-dmserif;
+	}
+	h4 {
+		@apply text-xl font-dmserif;
+	}
 	p {
-		@apply text-xl font-light;
+		@apply text-xl font-light py-3;
+	}
+	p a {
+		@apply text-blue underline decoration-blue;
+	}
+	footer {
+		@apply p-5 text-center;
 	}
 }
 

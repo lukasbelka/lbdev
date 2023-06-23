@@ -12,7 +12,7 @@ module.exports = {
 		  colors: {
 			'dark': '#1a1a1a',
 			'smoke': '#f2f2f2',
-			'blue': '#3b4aff',
+			'blue': '#0ea2ff',
 			'purple': '#7e5bef',
 			'pink': '#ff49db',
 			'orange': '#ff7849',
@@ -24,6 +24,7 @@ module.exports = {
 			'black': "#000000",
 		  },
 		  fontFamily: {
+			dmserif: ['"DM Serif Display"'],
 			sans: ['Graphik', 'sans-serif'],
 			serif: ['Merriweather', 'serif'],
 		  },
