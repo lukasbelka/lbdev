@@ -12,5 +12,5 @@ export default defineConfig({
     tailwind({
       // Disable injecting a basic `base.css` import on every page.
       config: { applyBaseStyles: false },
-    })]
+    })],
 });
