@@ -42,16 +42,16 @@
 		@apply text-xl font-dmserif;
 	}
 	p {
-		@apply text-xl font-inter py-3;
+		@apply text-xl font-inter font-light py-3;
 	}
 	p a {
 		@apply text-blue underline decoration-blue;
 	}
 	ul {
-		@apply text-xl;
+		@apply font-light text-xl;
 	}
 	ul li {
-		@apply text-xl;
+		@apply font-light text-xl;
 	}
 	footer {
 		@apply p-5 text-center;
