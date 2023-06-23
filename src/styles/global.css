@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=DM+Serif+Display&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=DM+Serif+Display&family=Lato&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -41,10 +42,16 @@
 		@apply text-xl font-dmserif;
 	}
 	p {
-		@apply text-xl font-light py-3;
+		@apply text-xl font-inter py-3;
 	}
 	p a {
 		@apply text-blue underline decoration-blue;
+	}
+	ul {
+		@apply text-xl;
+	}
+	ul li {
+		@apply text-xl;
 	}
 	footer {
 		@apply p-5 text-center;

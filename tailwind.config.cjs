@@ -25,6 +25,7 @@ module.exports = {
 		  },
 		  fontFamily: {
 			dmserif: ['"DM Serif Display"'],
+			inter: ['Inter', 'sans-serif'],
 			sans: ['Graphik', 'sans-serif'],
 			serif: ['Merriweather', 'serif'],
 		  },
