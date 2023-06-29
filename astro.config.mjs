@@ -15,7 +15,7 @@ export default defineConfig({
       wrap: true
     }
   },
-  site: 'https://example.com',
+  site: 'https://lukasbelka.dev',
   integrations: [mdx(), sitemap(), tailwind({
     // Disable injecting a basic `base.css` import on every page.
     config: {
