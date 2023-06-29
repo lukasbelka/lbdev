@@ -64,6 +64,6 @@ plt.show()
 ---
 If we look at the plot now, we have all necessary information and can see that the blue bar shows a value of 6.921.
 
-<img src="seaborn-bar-plot-with-annotation.png" alt="seaborn-bar-plot-with-annotation">
+<img src="/seaborn-bar-plot-with-annotation.png" alt="/seaborn-bar-plot-with-annotation">
 
 I hope this can help you as well.
