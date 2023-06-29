@@ -21,4 +21,4 @@ pnpm-debug.log*
 .DS_Store
 
 # file
-1seobilityverify_7138446.html
+./src/pages/seobilityverify_7138446.astro
