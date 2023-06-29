@@ -21,7 +21,5 @@ export default defineConfig({
     config: {
       applyBaseStyles: false
     }
-  })],
-  output: "server",
-  adapter: netlify()
+  })]
 });
