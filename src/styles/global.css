@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=DM+Serif+Display&family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=DM+Serif+Display&family=Lato&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -46,9 +46,6 @@
 	}
 	p a {
 		@apply text-blue underline decoration-blue;
-	}
-	b {
-		@apply font-bold;
 	}
 	ul {
 		@apply font-light text-xl;
