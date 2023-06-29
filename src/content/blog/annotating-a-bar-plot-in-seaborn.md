@@ -31,7 +31,7 @@ plt.show()
 ---
 This code produces the following plot. As you can see the blue bar is slightly below 7.000 but we do not know the exact number. This is bad if you need to show this information to your audience.
 
-<img src="/public/seaborn-bar-plot-without-annotation.png" alt="seaborn-bar-plot-without-annotation">
+<img src="public/seaborn-bar-plot-without-annotation.png" alt="seaborn-bar-plot-without-annotation">
 
 Only one line of code is missing in the code block above to show the annotation above each bar.
 
@@ -64,6 +64,6 @@ plt.show()
 ---
 If we look at the plot now, we have all necessary information and can see that the blue bar shows a value of 6.921.
 
-<img src="/public/seaborn-bar-plot-with-annotation.png" alt="seaborn-bar-plot-with-annotation">
+<img src="public/seaborn-bar-plot-with-annotation.png" alt="seaborn-bar-plot-with-annotation">
 
 I hope this can help you as well.
