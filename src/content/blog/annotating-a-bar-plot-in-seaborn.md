@@ -2,7 +2,7 @@
 title: "Annotating a bar plot in seaborn"
 description: "Read this short port if you are searching for a quick solution to annotate a barplot in seaborn"
 pubDate: "Jun 01 2023"
-heroImage: "/seaborn-barplot-hero-image.png"
+heroImage: "/seaborn-bar-plot-hero-image.png"
 ---
 
 Seaborn is a python library built on top of Matplotlib and it provides a high-level interface for creating stunning and informative statistical graphics. In this blog post, I won’t dive into the world of Seaborn - instead of exploring its key features, advantages, and how it can help you unlock powerful insights from your data, I just want to show you a quick solution for <b>annotating a bar plot in seaborn with just one line of code</b>.
@@ -31,7 +31,7 @@ plt.show()
 ---
 This code produces the following plot. As you can see the blue bar is slightly below 7.000 but we do not know the exact number. This is bad if you need to show this information to your audience.
 
-<img src="seaborn-bar-plot-without-annotation.png" alt="seaborn-bar-plot-without-annotation">
+<img src="/seaborn-bar-plot-without-annotation.png" alt="seaborn-bar-plot-without-annotation">
 
 Only one line of code is missing in the code block above to show the annotation above each bar.
 
